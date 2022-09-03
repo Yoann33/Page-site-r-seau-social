@@ -283,8 +283,12 @@ header a:focus {
 }
 
 @media screen and (min-width: 1338px) {
+
+    .group, .group > * {
+        width: 200px;
+    }
+
     .group .card {
         display: block;
-        width: 300px;
     }
 }
